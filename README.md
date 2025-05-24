@@ -32,6 +32,16 @@ The `data/` folder should contain the following CSV files:
 If you don't have these files, you can download official F1 data from public datasets such as the [Ergast API](http://ergast.com/mrd/) or Kaggle’s F1 datasets.
 
 ---
+## How to Run
+
+Make sure you have installed all dependencies first:
+pip install -r requirements.txt
+
+# Run the Streamlit app (web interface)
+streamlit run ok.py
+
+# Or run the prediction script (no web interface)
+python prediction_script.py
 
 ## Installation
 
@@ -42,4 +52,3 @@ If you don't have these files, you can download official F1 data from public dat
 
 ```bash
 pip install -r requirements.txt
-
