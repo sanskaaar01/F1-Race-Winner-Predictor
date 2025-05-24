@@ -8,11 +8,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 # Load Data
-races = pd.read_csv("data/races.csv")
-results = pd.read_csv("data/results.csv")
-status = pd.read_csv("data/status.csv")
-drivers = pd.read_csv("data/drivers.csv")
-circuits = pd.read_csv("data/circuits.csv")
+races = pd.read_csv("csv/races.csv")
+results = pd.read_csv("csv/results.csv")
+status = pd.read_csv("csv/status.csv")
+drivers = pd.read_csv("csv/drivers.csv")
+circuits = pd.read_csv("csv/circuits.csv")
 
 # Preprocessing
 circuits.rename(columns={'name': 'circuit_name'}, inplace=True)
