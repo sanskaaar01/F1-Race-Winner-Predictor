@@ -1,7 +1,7 @@
-# F1 Race Winner Predictor
+# F1 Driver Victory Predictor
 
 ## Project Overview
-The **F1 Race Winner Predictor** is a machine learning project designed to estimate the probability of a Formula 1 driver winning a race based on historical data. The model incorporates driver performance, constructor stats, circuit characteristics, and grid positions to make predictions.
+The **F1 Driver Victory Predictor** is a machine learning project designed to estimate the probability of a Formula 1 driver winning a race based on historical data. The model incorporates driver performance, constructor stats, circuit characteristics, and grid positions to make predictions.
 
 This project includes:
 - An **interactive Streamlit web app** (`ok.py`) where users can select a driver, circuit, and grid position to get a winning probability.
