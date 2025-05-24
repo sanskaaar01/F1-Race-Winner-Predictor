@@ -69,7 +69,7 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 # 🚀 Streamlit App
-st.title("🏁 F1 Race Winner Predictor")
+st.title("🏁 F1 Driver Victory Predictor")
 
 st.markdown("### Select Driver, Circuit & Grid Position")
 selected_driver = st.selectbox("Choose a Driver", sorted(valid_drivers))
