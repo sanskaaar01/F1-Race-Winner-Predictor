@@ -1,4 +1,4 @@
-# F1 Driver Victory Predictor
+# F1 Driver Victory Predicto
 
 ## Project Overview
 The **F1 Driver Victory Predictor** is a machine learning project designed to estimate the probability of a Formula 1 driver winning a race based on historical data. The model incorporates driver performance, constructor stats, circuit characteristics, and grid positions to make predictions.
